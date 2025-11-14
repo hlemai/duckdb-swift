@@ -6,7 +6,8 @@ let package = Package(
 
   name: "DuckDB",
   products: [
-    .library(name: "DuckDB", targets: ["DuckDB"]),
+    //.library(name: "DuckDB", targets: ["DuckDB"]),
+    .library(name:"Cduckdb", targets:["Cduckdb"])
   ],
   targets: [
     .target(
